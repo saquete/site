@@ -50,7 +50,7 @@ header div.menus{
 
     color: rgb(0, 0, 0);
     margin-top: auto;
-background-color: rgb(53, 236, 93);
+background-color: transparent;
     float: right;
     margin-bottom: auto;
     font-size: 40px;
@@ -59,6 +59,23 @@ background-color: rgb(53, 236, 93);
 header div.menus > p{
     display: none;
     color: rgb(0, 0, 0);
+}
+header div.menus > p > h4 {
+
+    display: none;
+    color: rgb(0, 0, 0);
+}
+header div:hover.menus  > p  > h4 {
+    text-align: left;
+    font-size: 25px;
+    border: 1px solid black;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: rgba(2, 2, 2, 0.63);
+
+
 }
 
 header div:hover.menus{
@@ -72,11 +89,6 @@ header div:hover.menus > p{
     text-align: left;
     font-size: 25px;
     border: 1px solid black;
-    
-    
-   
-
-
     margin-top: 0px;
     margin-bottom: 0px;
     display: block;
@@ -96,13 +108,14 @@ header div.menus >h3{
     margin-top: 0%;
     margin-bottom: 0%;
 }
+
 main{
 
     display: inline-block;
     position: fixed;
     z-index: -2;
     width: 1200px; 
-    height: 804px;
+    height: auto;
     margin:auto;
     background-color: transparent;
 
