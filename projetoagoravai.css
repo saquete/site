@@ -56,26 +56,11 @@ background-color: transparent;
     font-size: 40px;
   
 }
-header div.menus > p{
-    display: none;
-    color: rgb(0, 0, 0);
-}
-header div.menus > p > h4 {
 
-    display: none;
-    color: rgb(0, 0, 0);
-}
-header div:hover.menus  > p  > h4 {
-    text-align: left;
-    font-size: 25px;
-    border: 1px solid black;
-
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-    color: rgba(2, 2, 2, 0.63);
-
-
+header div.menus >h3{
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 header div:hover.menus{
@@ -85,7 +70,24 @@ header div:hover.menus{
 
 }
 
-header div:hover.menus > p{
+
+.menus >ul{
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.menus >ul>h3{
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+.menus > ul > li{
+    display: none;
+
+}
+:hover.menus > ul >li{
     text-align: left;
     font-size: 25px;
     border: 1px solid black;
@@ -93,21 +95,65 @@ header div:hover.menus > p{
     margin-bottom: 0px;
     display: block;
     color: rgba(2, 2, 2, 0.63);
-
-
-}
-a{
-    color: rgb(255, 255, 255);
+    
 }
 
 
 
 
-header div.menus >h3{
+header div.submenu{
+
+    width:200px ;
+    text-align: center;
+
+
+    color: rgb(0, 0, 0);
+    margin-top: auto;
+background-color: transparent;
+    float: right;
+    margin-bottom: auto;
+    font-size: 40px;
+  
+}
+
+header div.submenu >ul{
     font-size: 40px;
     margin-top: 0%;
     margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
+
+.submenu >ul>h3{
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+
+}
+.submenu>ul>li{
+    display: block;
+
+}
+:hover.submenu>ul>li{
+    display: block;
+
+}
+.submenu>ul>li>ul{
+    display: none;
+}
+:hover.submenu>ul>li>p>ul{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
 
 main{
 
