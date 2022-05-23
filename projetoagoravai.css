@@ -57,11 +57,6 @@ background-color: transparent;
   
 }
 
-header div.menus >h3{
-    font-size: 40px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
 
 header div:hover.menus{
 
@@ -83,8 +78,8 @@ header div:hover.menus{
 
 }
 
-.menus > ul > li{
-    display: none;
+.menus  > ul > li{
+    display: ;
 
 }
 :hover.menus > ul >li{
@@ -97,55 +92,28 @@ header div:hover.menus{
     color: rgba(2, 2, 2, 0.63);
     
 }
+li.submenu> ul{
+    display: block;
 
-
-
-
-header div.submenu{
-
-    width:200px ;
-    text-align: center;
-
-
-    color: rgb(0, 0, 0);
-    margin-top: auto;
-background-color: transparent;
-    float: right;
-    margin-bottom: auto;
-    font-size: 40px;
-  
+    margin-left: 0px;
 }
 
-header div.submenu >ul{
-    font-size: 40px;
-    margin-top: 0%;
-    margin-bottom: 0%;
+:hover.submenu>ul{
+    display: inline-block;
+}
+.submenu{
+    background-color: transparent;
+}
+.submenu >ul>li{
+    display: inline-block;
+}
+
+.submenu1{
     margin-left: 0%;
-    margin-right: 0%;
-}
-
-.submenu >ul>h3{
-    padding: 0%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    float: left;
+    margin: auto;
     border: 1px solid black;
-
 }
-.submenu>ul>li{
-    display: block;
-
-}
-:hover.submenu>ul>li{
-    display: block;
-
-}
-.submenu>ul>li>ul{
-    display: none;
-}
-:hover.submenu>ul>li>p>ul{
-    display: block;
-}
-
 
 
 
