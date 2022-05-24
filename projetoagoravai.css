@@ -74,12 +74,14 @@ header div:hover.menus{
 .menus >ul>h3{
     font-size: 40px;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
 
 }
 
 .menus  > ul > li{
-    display: ;
+    display: none;
+
+
 
 }
 :hover.menus > ul >li{
@@ -92,28 +94,24 @@ header div:hover.menus{
     color: rgba(2, 2, 2, 0.63);
     
 }
-li.submenu> ul{
-    display: block;
-
-    margin-left: 0px;
+.submenu>p{
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
-
+.submenu>ul{
+    display:none ;
+ 
+}
 :hover.submenu>ul{
+    margin-left: 160px;
     display: inline-block;
-}
-.submenu{
-    background-color: transparent;
-}
-.submenu >ul>li{
-    display: inline-block;
+  
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: 0%;
 }
 
-.submenu1{
-    margin-left: 0%;
-    float: left;
-    margin: auto;
-    border: 1px solid black;
-}
+
 
 
 
