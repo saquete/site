@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+    background-color: aqua;
+}
+header{
+
+}
+
+.titulo{
+    background-color: rgb(255, 254, 254);
+    width: 50px;
+    height:  auto; 
+    border:  1px solid rgb(255, 255, 255);
+
+   
+}
+nav{
+    clear: none;
+    float: right;
+
+}
