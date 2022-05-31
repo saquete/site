@@ -1,18 +1,29 @@
 @charset "utf-8";
 body{
-    display: flex;
-    width: 100vh;
+
+    width: auto;
     height: 100vh;
     background: linear-gradient(to right,
     rgb(0, 255, 81, 0.918), rgb(38, 243, 103) ,rgb(92, 248, 141), rgb(124, 245, 162), rgb(189, 248, 208),
     rgb(189, 248, 208),rgb(124, 245, 162),rgb(92, 248, 141),rgb(38, 243, 103),rgba(0, 255, 81, 0.918)
       );
 }
+.main-container{
+    width: 85%;
+    margin-right: 0%;
+    margin:auto;
 
+    display: flex;
+
+    height: 100vh;
+}
+#spotify{
+    width: auto;
+}
 .container{
-    
-
     background-color: transparent;
+    display: flex;
+
     
     height: 100vh;
 border: 1px solid black;
