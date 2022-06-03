@@ -16,7 +16,7 @@ body{
 .container{
     background-color: transparent;
     display: block;
-    width: 100vw;
+    width: 98vw;
 
     
     height: 100vh;
@@ -24,12 +24,11 @@ body{
     
 }
 header{
-    border-bottom: 1px solid black;
     
     display: flex;
     flex-direction: row;
     background-color: transparent;
-    width:var(container);
+    width:auto;
     margin-right: 0%;
     height: 5vh;
     
@@ -68,22 +67,23 @@ header{
 }
 
 .col-ul{
-    margin-right: 0px;
 
-    height:5vh;
+    height:auto;
+    width: auto;
 
     background-color: blueviolet    ;
 }
 
 
 .col-ul>p{
-    height:5vh;
-    font-size: 5vh;
+    height:auto;
+    font-size: 4vh;
+    width: auto;
 
     margin-top: 0%;
     margin-bottom: 0%;
     text-align: center;
-
+    border: 1px solid black  ;
 }
 .col-ul ul{
     padding: 0%;
@@ -117,7 +117,7 @@ header{
 
     
 
-
+border: 1px solid black;
     
 
 }
@@ -129,5 +129,5 @@ header{
 footer{
     background-color: aqua;
     width:auto;
-    height: 100px;
+    height: 5vh;
 }
