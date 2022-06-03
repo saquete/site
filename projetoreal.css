@@ -71,7 +71,7 @@ header{
     height:auto;
     width: auto;
 
-    background-color: blueviolet    ;
+      
 }
 
 
@@ -83,7 +83,7 @@ header{
     margin-top: 0%;
     margin-bottom: 0%;
     text-align: center;
-    border: 1px solid black  ;
+    border: 0.2vh solid rgb(255, 255, 255)  ;
 }
 .col-ul ul{
     padding: 0%;
@@ -97,7 +97,10 @@ header{
     display: block;
 }
 .col-ul ul li{
-    border: 1px solid black;
+    width: 15vh;
+    border: 0.2vh solid black;
+    font-size: 15px;
+    text-align: center;
 }
 .sub-carta>ul{
     display: none;
@@ -117,17 +120,32 @@ header{
 
     
 
-border: 1px solid black;
+border: 0.2vh solid black;
     
 
 }
 .teste{
+
     background-color: aqua;
     height: auto;
-    width: 10px;
+    width: 50vw;
+}
+.teste2{
+    z-index: -2;
+    background-color: rgb(0, 0, 0);
+    width: 50vw;
+}
+.teste3{
+    height: 50vh;
+
+    background-color: azure;
+    width: 100%;
 }
 footer{
     background-color: aqua;
     width:auto;
     height: 5vh;
+}
+#spotify{
+    width: 20vw;
 }
