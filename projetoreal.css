@@ -103,7 +103,7 @@ header{
 
 .main-container{
     background-color: transparent;
-    display:inline-flex;
+    display:flex;
     height:100vh;
     
     
