@@ -22,7 +22,7 @@ margin: 0% 0px 0px 0px;
     width: 98vw;
 
     
-    height: 90vh0;
+    height: 90vh;
 
     
 }
@@ -30,7 +30,7 @@ header{
     
     display: flex;
     flex-direction: row;
-    background-color: transparent;
+  
     width:auto;
     margin-right: 0%;
     height: 5vh;
@@ -69,16 +69,17 @@ header{
 
 }
 
-.col-ul{
+.col-ul{ /* menu principal*/
 
     height:auto;
-    width: auto;
+    width: 10vw;
+    
 
       
 }
 
 
-.col-ul>p{
+.col-ul>p{ /* texto do menu principal*/
     height:auto;
     font-size: 4vh;
     width: auto;
@@ -88,7 +89,9 @@ header{
     text-align: center;
     border: 0.2vh solid rgb(255, 255, 255)  ;
 }
-.col-ul ul{
+.col-ul>ul{/* lista dentro do submenu*/
+    
+ 
     padding: 0%;
     list-style: none;
     display: none;
@@ -98,15 +101,24 @@ header{
 }
 :hover.col-ul>ul{
     display: block;
+    width: 0vw;
+    
 }
-.col-ul ul li{
-    width: 15vh;
+.col-ul ul li{ /* lista dentro dos menu*/
+    width: 10vw;
     border: 0.2vh solid rgb(0, 0, 0);
     font-size: 3vh;
     text-align: center;
+    
 }
-.sub-carta>ul{
+.sub-carta>ul{ /* lista dentro submenu carta*/
+    
+    padding: 0%;
+    list-style: none;
     display: none;
+    
+    margin:0ch 0px 0px 0px;
+
 
 }
 :hover.sub-carta >ul{
@@ -126,23 +138,6 @@ header{
 border: 0.2vh solid black;
     
 
-}
-.teste{
-
-    background-color: aqua;
-    height: auto;
-    width: 50vw;
-}
-.teste2{
-    z-index: -2;
-    background-color: rgb(233, 130, 130);
-    width: 50vw;
-}
-.teste3{
-    height: 50vh;
-
-    background-color: azure;
-    width: 100%;
 }
 footer{
     background-color: aqua;
