@@ -31,7 +31,7 @@ header{
     display: flex;
     flex-direction: row;
   
-    width:100vw;
+    width:auto;
     margin-right: 0%;
     height: 5vh;
     
@@ -53,8 +53,8 @@ header{
     margin-top: 0%;
     margin-bottom: 0%;
     
-    width: auto;
-    height: auto;
+    width: 30vw;
+    height: 30vh;
     font-size: 5vh;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
