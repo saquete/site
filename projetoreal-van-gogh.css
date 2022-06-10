@@ -44,20 +44,15 @@ body{
     animation:move-twink-back 150s linear infinite;
   }
 
-.clouds{
-    background:transparent url(imgs\ projeot/clouds.png) repeat top center;
-    z-index:2;
-    opacity: .4;
-    animation:move-clouds-back 200s linear infinite;
-}
+
 
 
 main{
- 
-
     width: 85vw;
+    opacity: .2;
+    z-index: 4;
     height: 85vh;
-    background-color: rgb(108, 180, 243);
+    background-color: rgb(90, 88, 88);
     margin: auto ;
    
     
