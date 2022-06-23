@@ -1,0 +1,63 @@
+}
+.col-ul, .sub-carta{
+    background-color: aqua;
+
+width: 30%;
+height: 100%;
+}
+.col-ul , .sub-carta {
+    background-color: blanchedalmond;
+   
+    height: fit-content;
+    width: 100%;
+
+    margin: 0%;
+
+    padding: 0%;
+    list-style: none;
+}
+
+.col-ul p {
+    text-align: center;
+    font-size: 1.8vw;
+    height: 100%;
+  
+    margin: 0%;
+    width: 100%;
+}
+.sub-carta p{
+    text-align: center;
+    display: none;
+   
+ 
+    
+    font-size: 1.8vw;
+    height: 100%;
+  
+    margin: 0%;
+    width: 100%;
+}
+
+.col-ul li, .sub-carta a {
+    width: 100%;
+    display: none;
+    font-size: 25px;
+   
+}
+
+:hover.col-ul li  {
+    background-color: aliceblue;
+    display: block;
+    height: 100%;
+    
+    width: 100%;
+    
+}
+:hover.sub-carta p {
+    display:block;
+
+    height: 100%;
+    width: 100%;
+    font-size: 3vh;
+
+}
