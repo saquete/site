@@ -1,28 +1,39 @@
 @charset "utf-8";
 body{
     margin: 0% 0px 0px 0px;
-   display: flex;
+   display:table;
+   flex-direction: row-reverse;
+   background-color: #004B23;
+   
    
 
     width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to right,
-    rgb(0, 255, 81, 0.918), rgb(38, 243, 103) ,rgb(92, 248, 141), rgb(124, 245, 162), rgb(189, 248, 208),
-    rgb(189, 248, 208),rgb(124, 245, 162),rgb(92, 248, 141),rgb(38, 243, 103),rgba(0, 255, 81, 0.918)
-      );
+    height: 99vh;
+
 }
+header, .col-ul,.sub-carta {
+    background-color:#ffffff;
+
+}
+header {
+  border-bottom: gray 1px solid;
+
+}
+
 header{
-    height: 6vh;
-    width: 99.9vw;
+    position: initial;
+    z-index: 3;
+    height: 6%;
+    width: 100%;
     display: flex;
-    background-color: antiquewhite;
+
 }
 #col-titulo {
     display: block;
     position:relative;
     
-    border: 1px solid black;
-    background-color: bisque;
+    
+
     height:100%;
     width: 100%;
 }
@@ -32,7 +43,7 @@ header{
     font-size:5vh; 
     width:fit-content;
     height: 100%;
-    background-color: blue;
+ 
     margin: 0%;
     
 }
@@ -40,68 +51,77 @@ header{
 
 
 #emp-spc{
+    
     margin-inline-start: auto;
     
 }
-.col-ul, .sub-carta{
-
-
-width: 30%;
-height: 100%;
-}
-
-.col-ul p, .sub-carta p{
- 
-    border: 1px solid  black;
-    font-size: 2vw;
-    height: 100%;
-    background-color: rgb(106, 76, 216);
-    margin: 0%;
-    width: 100%;
-}
-.col-ul ul, .sub-carta ul{
-   
-    height: fit-content;
-    width: 100%;
-    background-color: antiquewhite;
+.col-ul{
+    flex-direction: column;
+    border: black 1px solid;
     margin: 0%;
     padding: 0%;
     list-style: none;
-}
-.col-ul ul>li, .sub-carta ul>a {
-    width: 100%;
-    display: none;
-    font-size: 25px;
-}
-
-:hover.col-ul ul li {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    
-}
-:hover.sub-carta ul a  {
-    display:block;
-    
-    
+    width: fit-content;   
     height: 100%;
+}
+.sub-carta{
+    display: none;
+    height: fit-content;
+    padding: 0%;
+}
+:hover.sub-carta{
+    display: block;
+}
+.col-ul p, .sub-carta p{
+    font-size: 2vw;
     width: 100%;
-    font-size: 3vh;
+    border: aliceblue 1px solid;
+    margin: 0%;
+    height: 100%;
 
 }
+.sub-carta ul{
+    list-style: none;
+    background-color: aqua;
+    display: none;
+    padding: 0%;
+    height: fit-content;
+}
+:hover.sub-carta ul{
+    display: block;
+}
+
 
 
 
 
 main{
+    position: relative;
+    z-index: -2;
     display: flex;
-    justify-content: left;
+    height: 100%;
+    width: 99.9vw;
+   
+    
 }
 
 
 
 
 #spotify{
-display: none;
-    width: 20vw;
+    height: 100%;
+   
+    
+
+    width: 20%;
+}
+.teste{
+    z-index: 2;
+    display: inline-block;
+    width: 100%;
+}
+.teste2{
+    z-index: -2;
+    background-color: blanchedalmond;
+    width: 50%;
 }
